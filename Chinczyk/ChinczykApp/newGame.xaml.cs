@@ -10,35 +10,29 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace ChinczykApp
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Logika interakcji dla klasy newGame.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class newGame : Window
     {
-        public MainWindow()
+        public newGame()
         {
             InitializeComponent();
         }
 
-        private void newGameButton_Click(object sender, RoutedEventArgs e)
+        private void startButton_Click(object sender, RoutedEventArgs e)
         {
-            new newGame().Show();
+            new game().Show();
             this.Close();
         }
 
-        private void rulesButton_Click(object sender, RoutedEventArgs e)
+        private void backButton_Click(object sender, RoutedEventArgs e)
         {
-            new rules().Show();
-            this.Close();
-        }
-
-        private void exitButton_Click(object sender, RoutedEventArgs e)
-        {
+            new MainWindow().Show();
             this.Close();
         }
     }
