@@ -19,3 +19,24 @@ C:\Users\Adam\Downloads\Nowy folder\Chinczyk-master\Chinczyk\ChinczykApp\obj\Deb
 C:\Users\Adam\Downloads\Nowy folder\Chinczyk-master\Chinczyk\ChinczykApp\obj\Debug\game.baml
 C:\Users\Adam\Downloads\Nowy folder\Chinczyk-master\Chinczyk\ChinczykApp\obj\Debug\rules.g.cs
 C:\Users\Adam\Downloads\Nowy folder\Chinczyk-master\Chinczyk\ChinczykApp\obj\Debug\rules.baml
+C:\Users\Bezi\Desktop\c#_git\Chinczyk\Chinczyk\Chinczyk\ChinczykApp\bin\Debug\ChinczykApp.exe.config
+C:\Users\Bezi\Desktop\c#_git\Chinczyk\Chinczyk\Chinczyk\ChinczykApp\bin\Debug\ChinczykApp.exe
+C:\Users\Bezi\Desktop\c#_git\Chinczyk\Chinczyk\Chinczyk\ChinczykApp\bin\Debug\ChinczykApp.pdb
+C:\Users\Bezi\Desktop\c#_git\Chinczyk\Chinczyk\Chinczyk\ChinczykApp\obj\Debug\ChinczykApp.csprojResolveAssemblyReference.cache
+C:\Users\Bezi\Desktop\c#_git\Chinczyk\Chinczyk\Chinczyk\ChinczykApp\obj\Debug\game.g.cs
+C:\Users\Bezi\Desktop\c#_git\Chinczyk\Chinczyk\Chinczyk\ChinczykApp\obj\Debug\MainWindow.g.cs
+C:\Users\Bezi\Desktop\c#_git\Chinczyk\Chinczyk\Chinczyk\ChinczykApp\obj\Debug\newGame.g.cs
+C:\Users\Bezi\Desktop\c#_git\Chinczyk\Chinczyk\Chinczyk\ChinczykApp\obj\Debug\rules.g.cs
+C:\Users\Bezi\Desktop\c#_git\Chinczyk\Chinczyk\Chinczyk\ChinczykApp\obj\Debug\App.g.cs
+C:\Users\Bezi\Desktop\c#_git\Chinczyk\Chinczyk\Chinczyk\ChinczykApp\obj\Debug\ChinczykApp_MarkupCompile.cache
+C:\Users\Bezi\Desktop\c#_git\Chinczyk\Chinczyk\Chinczyk\ChinczykApp\obj\Debug\ChinczykApp_MarkupCompile.lref
+C:\Users\Bezi\Desktop\c#_git\Chinczyk\Chinczyk\Chinczyk\ChinczykApp\obj\Debug\game.baml
+C:\Users\Bezi\Desktop\c#_git\Chinczyk\Chinczyk\Chinczyk\ChinczykApp\obj\Debug\MainWindow.baml
+C:\Users\Bezi\Desktop\c#_git\Chinczyk\Chinczyk\Chinczyk\ChinczykApp\obj\Debug\newGame.baml
+C:\Users\Bezi\Desktop\c#_git\Chinczyk\Chinczyk\Chinczyk\ChinczykApp\obj\Debug\rules.baml
+C:\Users\Bezi\Desktop\c#_git\Chinczyk\Chinczyk\Chinczyk\ChinczykApp\obj\Debug\ChinczykApp.g.resources
+C:\Users\Bezi\Desktop\c#_git\Chinczyk\Chinczyk\Chinczyk\ChinczykApp\obj\Debug\ChinczykApp.Properties.Resources.resources
+C:\Users\Bezi\Desktop\c#_git\Chinczyk\Chinczyk\Chinczyk\ChinczykApp\obj\Debug\ChinczykApp.csproj.GenerateResource.Cache
+C:\Users\Bezi\Desktop\c#_git\Chinczyk\Chinczyk\Chinczyk\ChinczykApp\obj\Debug\ChinczykApp.csproj.CoreCompileInputs.cache
+C:\Users\Bezi\Desktop\c#_git\Chinczyk\Chinczyk\Chinczyk\ChinczykApp\obj\Debug\ChinczykApp.exe
+C:\Users\Bezi\Desktop\c#_git\Chinczyk\Chinczyk\Chinczyk\ChinczykApp\obj\Debug\ChinczykApp.pdb
