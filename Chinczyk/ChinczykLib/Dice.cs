@@ -11,7 +11,9 @@ namespace ChinczykLib
         public string ImgPath { get; private set; }
         public int Value { get; private set; }  // zakres wartości to 1-6
 
-        // ustawienie ścieżki do zdjęcia z odpowiednią wartością na kostce 
+        /// <summary>
+        ///  Metoda ustawiająca ścieżkę do zdjęcia z odpowiednią wartością na kostce
+        /// </summary>
         private void SetImgPath()
         {
             string path;
@@ -41,7 +43,9 @@ namespace ChinczykLib
             }
             ImgPath = path;
         }
-
+        /// <summary>
+        /// Metoda symulująca rzut kostką (losowy wybór wartości kostki)
+        /// </summary>
         public void Roll()
         {
             Random random = new Random();

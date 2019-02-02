@@ -8,5 +8,9 @@ namespace ChinczykLib
 {
     public class ComputerPlayer : Player
     {
+        public override int SelectPawn()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
