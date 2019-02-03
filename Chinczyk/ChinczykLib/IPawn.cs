@@ -8,5 +8,6 @@ namespace ChinczykLib
 {
     interface IPawn
     {
+        void Move(int NewPosition, GameBoard gameBoard);
     }
 }

@@ -5,12 +5,84 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ChinczykApp"
         mc:Ignorable="d"
-        Title="game" Height="450" Width="800">
+        Title="game" Height="800" Width="800">
     <Grid>
         <Grid.Background>
-            <ImageBrush/>
+            <ImageBrush ImageSource="chinczyk-plansza.png"/>
         </Grid.Background>
-        <Button x:Name="qubeThrowButton" Content="Rzut kostką" HorizontalAlignment="Left" Margin="355,199,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button x:Name="qubeThrowButton" Content="Rzut kostką" HorizontalAlignment="Center" VerticalAlignment="Center" Width="76" Height="71" Margin="358,348,358,350"/>
+        <Image HorizontalAlignment="Left" Height="71" Margin="288,699,0,0" VerticalAlignment="Top" Width="71"/>
+        <Image HorizontalAlignment="Left" Height="71" Margin="288,629,0,0" VerticalAlignment="Top" Width="71"/>
+        <Image HorizontalAlignment="Left" Height="71" Margin="288,559,0,0" VerticalAlignment="Top" Width="71"/>
+        <Image HorizontalAlignment="Left" Height="71" VerticalAlignment="Top" Width="72" Margin="73,0,0,0"/>
+        <Image HorizontalAlignment="Left" Height="71" Margin="288,490,0,0" VerticalAlignment="Top" Width="71"/>
+        <Image HorizontalAlignment="Left" Height="71" Margin="288,419,0,0" VerticalAlignment="Top" Width="71"/>
+        <Image HorizontalAlignment="Left" Height="71" Margin="217,419,0,0" VerticalAlignment="Top" Width="71"/>
+        <Image HorizontalAlignment="Left" Height="71" Margin="145,419,0,0" VerticalAlignment="Top" Width="71"/>
+        <Image HorizontalAlignment="Left" Height="71" Margin="73,419,0,0" VerticalAlignment="Top" Width="71"/>
+        <Image HorizontalAlignment="Left" Height="71" VerticalAlignment="Top" Width="71" Margin="0,70,0,0"/>
+        <Image HorizontalAlignment="Left" Height="71" Margin="0,419,0,0" VerticalAlignment="Top" Width="71"/>
+        <Image HorizontalAlignment="Left" Height="71" Margin="0,347,0,0" VerticalAlignment="Top" Width="71"/>
+        <Image HorizontalAlignment="Left" Height="71" Margin="0,281,0,0" VerticalAlignment="Top" Width="71"/>
+        <Image HorizontalAlignment="Left" Height="71" Margin="76,281,0,0" VerticalAlignment="Top" Width="71"/>
+        <Image HorizontalAlignment="Left" Height="71" Margin="145,281,0,0" VerticalAlignment="Top" Width="71"/>
+        <Image HorizontalAlignment="Left" Height="71" Margin="217,281,0,0" VerticalAlignment="Top" Width="71"/>
+        <Image HorizontalAlignment="Left" Height="71" Margin="288,281,0,0" VerticalAlignment="Top" Width="71"/>
+        <Image HorizontalAlignment="Left" Height="71" Margin="288,210,0,0" VerticalAlignment="Top" Width="71"/>
+        <Image HorizontalAlignment="Left" Height="71" Margin="288,141,0,0" VerticalAlignment="Top" Width="71"/>
+        <Image HorizontalAlignment="Left" Height="71" Margin="288,70,0,0" VerticalAlignment="Top" Width="71"/>
+        <Image HorizontalAlignment="Left" Height="71" Margin="288,0,0,0" VerticalAlignment="Top" Width="71"/>
+        <Image HorizontalAlignment="Left" Height="71" Margin="359,0,0,0" VerticalAlignment="Top" Width="71"/>
+        <Image HorizontalAlignment="Left" Height="71" Margin="434,0,0,0" VerticalAlignment="Top" Width="71"/>
+        <Image HorizontalAlignment="Left" Height="71" Margin="434,70,0,0" VerticalAlignment="Top" Width="71"/>
+        <Image HorizontalAlignment="Left" Height="71" Margin="434,141,0,0" VerticalAlignment="Top" Width="71"/>
+        <Image HorizontalAlignment="Left" Height="71" Margin="434,210,0,0" VerticalAlignment="Top" Width="71"/>
+        <Image HorizontalAlignment="Left" Height="71" Margin="434,281,0,0" VerticalAlignment="Top" Width="71"/>
+        <Image HorizontalAlignment="Left" Height="71" Margin="502,281,0,0" VerticalAlignment="Top" Width="71"/>
+        <Image HorizontalAlignment="Left" Height="71" Margin="578,281,0,0" VerticalAlignment="Top" Width="71"/>
+        <Image HorizontalAlignment="Left" Height="71" Margin="646,281,0,0" VerticalAlignment="Top" Width="71"/>
+        <Image HorizontalAlignment="Left" Height="71" Margin="719,281,0,0" VerticalAlignment="Top" Width="71"/>
+        <Image HorizontalAlignment="Left" Height="71" VerticalAlignment="Top" Width="71" Margin="0,699,0,0"/>
+        <Image HorizontalAlignment="Left" Height="71" Margin="719,347,0,0" VerticalAlignment="Top" Width="71"/>
+        <Image HorizontalAlignment="Left" Height="71" Margin="719,419,0,0" VerticalAlignment="Top" Width="71"/>
+        <Image HorizontalAlignment="Left" Height="71" Margin="646,419,0,0" VerticalAlignment="Top" Width="71"/>
+        <Image HorizontalAlignment="Left" Height="71" Margin="574,419,0,0" VerticalAlignment="Top" Width="71"/>
+        <Image HorizontalAlignment="Left" Height="71" Margin="502,419,0,0" VerticalAlignment="Top" Width="71"/>
+        <Image HorizontalAlignment="Left" Height="71" Margin="434,419,0,0" VerticalAlignment="Top" Width="71"/>
+        <Image HorizontalAlignment="Left" Height="71" Margin="434,490,0,0" VerticalAlignment="Top" Width="71"/>
+        <Image HorizontalAlignment="Left" Height="71" VerticalAlignment="Top" Width="71" Margin="719,0,0,0"/>
+        <Image HorizontalAlignment="Left" Height="71" Margin="434,559,0,0" VerticalAlignment="Top" Width="71"/>
+        <Image HorizontalAlignment="Left" Height="71" Margin="434,629,0,0" VerticalAlignment="Top" Width="71"/>
+        <Image HorizontalAlignment="Left" Height="71" Margin="434,699,0,0" VerticalAlignment="Top" Width="71"/>
+        <Image HorizontalAlignment="Left" Height="71" Margin="358,699,0,0" VerticalAlignment="Top" Width="71"/>
+        <Image HorizontalAlignment="Left" Height="71" Margin="358,629,0,0" VerticalAlignment="Top" Width="71"/>
+        <Image HorizontalAlignment="Left" Height="71" VerticalAlignment="Top" Width="71"/>
+        <Image HorizontalAlignment="Left" Height="71" Margin="359,559,0,0" VerticalAlignment="Top" Width="75"/>
+        <Image HorizontalAlignment="Left" Height="71" Margin="359,490,0,0" VerticalAlignment="Top" Width="75"/>
+        <Image HorizontalAlignment="Left" Height="71" Margin="359,419,0,0" VerticalAlignment="Top" Width="75"/>
+        <Image HorizontalAlignment="Left" Height="71" Margin="434,348,0,0" VerticalAlignment="Top" Width="68"/>
+        <Image HorizontalAlignment="Left" Height="71" Margin="502,348,0,0" VerticalAlignment="Top" Width="72"/>
+        <Image HorizontalAlignment="Left" Height="71" Margin="574,348,0,0" VerticalAlignment="Top" Width="72"/>
+        <Image HorizontalAlignment="Left" Height="71" Margin="646,348,0,0" VerticalAlignment="Top" Width="73"/>
+        <Image HorizontalAlignment="Left" Height="71" Margin="359,70,0,0" VerticalAlignment="Top" Width="75"/>
+        <Image HorizontalAlignment="Left" Height="71" Margin="359,141,0,0" VerticalAlignment="Top" Width="75"/>
+        <Image HorizontalAlignment="Left" Height="71" Margin="359,210,0,0" VerticalAlignment="Top" Width="75"/>
+        <Image HorizontalAlignment="Left" Height="71" Margin="358,281,0,0" VerticalAlignment="Top" Width="76"/>
+        <Image HorizontalAlignment="Left" Height="71" Margin="288,348,0,0" VerticalAlignment="Top" Width="71"/>
+        <Image HorizontalAlignment="Left" Height="71" Margin="217,348,0,0" VerticalAlignment="Top" Width="71"/>
+        <Image HorizontalAlignment="Left" Height="71" Margin="145,348,0,0" VerticalAlignment="Top" Width="72"/>
+        <Image HorizontalAlignment="Left" Height="71" Margin="73,348,0,0" VerticalAlignment="Top" Width="72"/>
+        <Image HorizontalAlignment="Left" Height="71" Margin="73,70,0,0" VerticalAlignment="Top" Width="72"/>
+        <Image HorizontalAlignment="Left" Height="71" Margin="646,0,0,0" VerticalAlignment="Top" Width="73"/>
+        <Image HorizontalAlignment="Left" Height="71" Margin="719,70,0,0" VerticalAlignment="Top" Width="71"/>
+        <Image HorizontalAlignment="Left" Height="71" Margin="646,70,0,0" VerticalAlignment="Top" Width="73"/>
+        <Image HorizontalAlignment="Left" Height="71" Margin="719,699,0,0" VerticalAlignment="Top" Width="73"/>
+        <Image HorizontalAlignment="Left" Height="71" Margin="646,699,0,0" VerticalAlignment="Top" Width="73"/>
+        <Image HorizontalAlignment="Left" Height="71" Margin="719,629,0,0" VerticalAlignment="Top" Width="73"/>
+        <Image HorizontalAlignment="Left" Height="71" Margin="646,629,0,0" VerticalAlignment="Top" Width="73"/>
+        <Image HorizontalAlignment="Left" Height="71" Margin="0,629,0,0" VerticalAlignment="Top" Width="71"/>
+        <Image HorizontalAlignment="Left" Height="71" Margin="76,699,0,0" VerticalAlignment="Top" Width="68"/>
+        <Image HorizontalAlignment="Left" Height="71" Margin="71,629,0,0" VerticalAlignment="Top" Width="73"/>
 
     </Grid>
 </Window>

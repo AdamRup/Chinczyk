@@ -45,6 +45,9 @@
     <Compile Include="Dice.cs" />
     <Compile Include="GameBoard.cs" />
     <Compile Include="HumanPlayer.cs" />
+    <Compile Include="IDice.cs" />
+    <Compile Include="IPawn.cs" />
+    <Compile Include="IPlayer.cs" />
     <Compile Include="Pawn.cs" />
     <Compile Include="Player.cs" />
     <Compile Include="Point.cs" />
