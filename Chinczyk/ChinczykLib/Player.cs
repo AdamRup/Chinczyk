@@ -30,6 +30,10 @@ namespace ChinczykLib
         {
             Name = playerName;
         }
+        /// <summary>
+        /// Metoda losująca wartość kostki z zakresu 1-6
+        /// </summary>
+        /// <returns></returns>
         public int RollDice()
         {
             dice.Roll();

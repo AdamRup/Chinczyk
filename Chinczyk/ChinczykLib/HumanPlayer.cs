@@ -25,11 +25,21 @@ namespace ChinczykLib
             this.dice = dice;
         }
 
+
+        /// <summary>
+        /// Metoda przesuwająca pionek gracza
+        /// </summary>
+        /// <param name="pawn">pionek, który ma zostać przesunięty</param>
         public override void MovePawn(Pawn pawn)
         {
             pawn.Move(dice.Value);
         }
 
+        /// <summary>
+        /// Metoda zwracająca pionek, który ma zostać przesunięty
+        /// </summary>
+        /// <param name="pawnNumber">wartość typu int z numerem pionka</param>
+        /// <returns></returns>
         public Pawn SelectPawn(int pawnNumber)
         {
             int selectedPawn = 0;
