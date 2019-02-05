@@ -8,6 +8,6 @@ namespace ChinczykLib
 {
     interface IPlayer
     {
-        void SelectPawn(int Pawn);
+        void MovePawn(Pawn pawn);
     }
 }

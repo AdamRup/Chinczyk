@@ -6,13 +6,14 @@ using System.Threading.Tasks;
 
 namespace ChinczykLib
 {
-    public abstract class Player
+    public abstract class Player : IPlayer
     {
         public string Name { get; private set; }
         public int Number { get; private set; }
         protected Pawn[] pawns;
+        protected Dice dice;
 
-        public abstract int SelectPawn();
+        public abstract void MovePawn(Pawn pawn);
         /// <summary>
         /// Metoda ustawiająca unikalny numer gracza
         /// </summary>
@@ -28,6 +29,11 @@ namespace ChinczykLib
         public void SetName(string playerName)
         {
             Name = playerName;
+        }
+        public int RollDice()
+        {
+            dice.Roll();
+            return dice.Value;
         }
     }
 }

@@ -13,20 +13,34 @@ namespace ChinczykLib
         /// </summary>
         /// <param name="playerName">Nick gracza</param>
         /// <param name="playerNumber">Unikalny numer Gracza</param>
-        public HumanPlayer(string playerName, int playerNumber)
+        public HumanPlayer(string playerName, int playerNumber, Point[] pawnPosition, Point[] pawnPath, Point pawnStart, Dice dice)
         {
             pawns = new Pawn[4];
-            for (int i=0; i<pawns.Length; i++)
+            for (int i = 0; i < pawns.Length; i++)
             {
-               // pawns[i] = new Pawn(10*playerNumber+i, 10 * playerNumber + i);  // zmienić pozycję pionka dla właściwej pozycji na planszy
+                pawns[i] = new Pawn(i, pawnPosition[i], pawnPath, pawnStart);
             }
             SetNumber(playerNumber);
             SetName(playerName);
+            this.dice = dice;
         }
-        // wybór pionka
-        public override int SelectPawn()
+
+        public override void MovePawn(Pawn pawn)
         {
-            throw new NotImplementedException();
+            pawn.Move(dice.Value);
+        }
+
+        public Pawn SelectPawn(int pawnNumber)
+        {
+            int selectedPawn = 0;
+            for (int i = 0; i < pawns.Length; i++)
+            {
+                if (pawns[i].NumberPaw == pawnNumber)
+                {
+                    selectedPawn = i;
+                }
+            }
+            return pawns[selectedPawn];
         }
     }
 }
