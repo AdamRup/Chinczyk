@@ -18,7 +18,7 @@ namespace ChinczykLib
             pawns = new Pawn[4];
             for (int i=0; i<pawns.Length; i++)
             {
-                pawns[i] = new Pawn(10*playerNumber+i, 10 * playerNumber + i);  // zmienić pozycję pionka dla właściwej pozycji na planszy
+               // pawns[i] = new Pawn(10*playerNumber+i, 10 * playerNumber + i);  // zmienić pozycję pionka dla właściwej pozycji na planszy
             }
             SetNumber(playerNumber);
             SetName(playerName);

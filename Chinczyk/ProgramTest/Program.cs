@@ -29,7 +29,7 @@ namespace ProgramTest
                 Console.Write("+");
             }
             Console.ForegroundColor = ConsoleColor.Yellow;
-            Console.SetCursorPosition(g1.StartPointPlayer2.X, g1.StartPointPlayer2.Y);
+           Console.SetCursorPosition(g1.StartPointPlayer2.X, g1.StartPointPlayer2.Y);
             Console.Write("+");
             for (int i = 0; i < 4; i++)
             {
@@ -59,7 +59,35 @@ namespace ProgramTest
                 Console.Write("+");
             }
             
+          
+
+
+            Pawn p1 = new Pawn(1, g1.BasePointPlayer1[0] , g1.PathPlayer1,g1.StartPointPlayer1);
+            Pawn p2 = new Pawn(1, g1.BasePointPlayer2[0], g1.PathPlayer2,g1.StartPointPlayer2);
+
+            p1.LeaveTheBase();
+            p2.LeaveTheBase();
+         
+            p1.Move(0);
+            p2.Move(43);
+
+            
+
+
+            Console.SetCursorPosition(p1.Position.X , p1.Position.Y);
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.Write("X");
+            Console.SetCursorPosition(p2.Position.X, p2.Position.Y);
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.Write("0");
+        
+
+
+
             Console.SetCursorPosition(50, 60);
+            Console.WriteLine(p1.Position.X == p2.Position.X);
+            
+
         }
     }
 }
