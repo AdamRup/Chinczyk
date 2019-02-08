@@ -11,25 +11,25 @@
         
         <Button Panel.ZIndex="1" x:Name="pl11" Background="Transparent" BorderThickness="0" HorizontalAlignment="Left" Margin="-139,14,0,0" VerticalAlignment="Top" Width="50" Height="50" ForceCursor="True" Click="Pl11_Click">
             <StackPanel>
-                <Image Source= "C:\Users\Bezi\Desktop\c#_git\Chinczyk\Chinczyk\Chinczyk\images\player1Pown.png"/>
+                <Image Source="p1Pawn.png" RenderTransformOrigin="0.281,-0.177" />
                 <TextBlock>Disconnect from Server</TextBlock>
             </StackPanel>
         </Button>
         <Button Panel.ZIndex="1" x:Name="pl12"  Background="Transparent" BorderThickness="0" HorizontalAlignment="Left" Margin="-139,14,0,0" VerticalAlignment="Top" Width="50" Height="50" ForceCursor="True" Click="Pl11_Click">
             <StackPanel>
-                <Image Source= "C:\Users\Bezi\Desktop\c#_git\Chinczyk\Chinczyk\Chinczyk\images\player1Pown.png"/>
+                <Image Source="p1Pawn.png" />
                 <TextBlock>Disconnect from Server</TextBlock>
             </StackPanel>
         </Button>
         <Button Panel.ZIndex="1" x:Name="pl13"  Background="Transparent" BorderThickness="0" HorizontalAlignment="Left" Margin="-139,14,0,0" VerticalAlignment="Top" Width="50" Height="50" ForceCursor="True" Click="Pl11_Click">
             <StackPanel>
-                <Image Source= "C:\Users\Bezi\Desktop\c#_git\Chinczyk\Chinczyk\Chinczyk\images\player1Pown.png"/>
+                <Image Source= "p1Pawn.png"/>
                 <TextBlock>Disconnect from Server</TextBlock>
             </StackPanel>
         </Button>
         <Button Panel.ZIndex="1" x:Name="pl14"  Background="Transparent" BorderThickness="0" HorizontalAlignment="Left" Margin="-139,14,0,0" VerticalAlignment="Top" Width="50" Height="50" ForceCursor="True" Click="Pl11_Click">
         <StackPanel>
-            <Image Source= "C:\Users\Bezi\Desktop\c#_git\Chinczyk\Chinczyk\Chinczyk\images\player1Pown.png" RenderTransformOrigin="-1.978,0.152"/>
+            <Image Source= "p1Pawn.png" RenderTransformOrigin="-1.978,0.152"/>
             <TextBlock>Disconnect from Server</TextBlock>
         </StackPanel>
             
@@ -38,25 +38,25 @@
 
         <Button Panel.ZIndex="1" x:Name="pl21" Background="Transparent" BorderThickness="0"  HorizontalAlignment="Left" Margin="-139,14,0,0" VerticalAlignment="Top" Width="50" Height="50" ForceCursor="True" Click="Pl11_Click">
             <StackPanel>
-                <Image Source= "C:\Users\Bezi\Desktop\c#_git\Chinczyk\Chinczyk\Chinczyk\images\player2Pown.png"/>
+                <Image Source= "p2Pawn.png"/>
                 <TextBlock>Disconnect from Server</TextBlock>
             </StackPanel>
         </Button>
         <Button Panel.ZIndex="1" x:Name="pl22"  Background="Transparent" BorderThickness="0" HorizontalAlignment="Left" Margin="-139,14,0,0" VerticalAlignment="Top" Width="50" Height="50" ForceCursor="True" Click="Pl11_Click">
             <StackPanel>
-                <Image Source= "C:\Users\Bezi\Desktop\c#_git\Chinczyk\Chinczyk\Chinczyk\images\player2Pown.png"/>
+                <Image Source= "p2Pawn.png"/>
                 <TextBlock>Disconnect from Server</TextBlock>
             </StackPanel>
         </Button>
         <Button Panel.ZIndex="1" x:Name="pl23"  Background="Transparent" BorderThickness="0" HorizontalAlignment="Left" Margin="-139,14,0,0" VerticalAlignment="Top" Width="50" Height="50" ForceCursor="True" Click="Pl11_Click">
             <StackPanel>
-                <Image Source= "C:\Users\Bezi\Desktop\c#_git\Chinczyk\Chinczyk\Chinczyk\images\player2Pown.png"/>
+                <Image Source= "p2Pawn.png"/>
                 <TextBlock>Disconnect from Server</TextBlock>
             </StackPanel>
         </Button>
         <Button Panel.ZIndex="1" x:Name="pl24"  Background="Transparent" BorderThickness="0" HorizontalAlignment="Left" Margin="-139,14,0,0" VerticalAlignment="Top" Width="50" Height="50" ForceCursor="True" Click="Pl11_Click">
             <StackPanel>
-                <Image Source= "C:\Users\Bezi\Desktop\c#_git\Chinczyk\Chinczyk\Chinczyk\images\player2Pown.png" RenderTransformOrigin="-1.978,0.152"/>
+                <Image Source= "p2Pawn.png" RenderTransformOrigin="-1.978,0.152"/>
                 <TextBlock>Disconnect from Server</TextBlock>
             </StackPanel>
         </Button>
@@ -64,25 +64,25 @@
 
         <Button Panel.ZIndex="1" x:Name="pl31"  Background="Transparent" BorderThickness="0" HorizontalAlignment="Left" Margin="-139,14,0,0" VerticalAlignment="Top" Width="50" Height="50" ForceCursor="True" Click="Pl11_Click">
             <StackPanel>
-                <Image Source= "C:\Users\Bezi\Desktop\c#_git\Chinczyk\Chinczyk\Chinczyk\images\player3Pown.png"/>
+                <Image Source= "p3Pawn.png"/>
                 <TextBlock>Disconnect from Server</TextBlock>
             </StackPanel>
         </Button>
         <Button Panel.ZIndex="1" x:Name="pl32"  Background="Transparent" BorderThickness="0" HorizontalAlignment="Left" Margin="-139,14,0,0" VerticalAlignment="Top" Width="50" Height="50" ForceCursor="True" Click="Pl11_Click">
             <StackPanel>
-                <Image Source= "C:\Users\Bezi\Desktop\c#_git\Chinczyk\Chinczyk\Chinczyk\images\player3Pown.png"/>
+                <Image Source= "p3Pawn.png"/>
                 <TextBlock>Disconnect from Server</TextBlock>
             </StackPanel>
         </Button>
         <Button Panel.ZIndex="1" x:Name="pl33"  Background="Transparent" BorderThickness="0" HorizontalAlignment="Left" Margin="-139,14,0,0" VerticalAlignment="Top" Width="50" Height="50" ForceCursor="True" Click="Pl11_Click">
             <StackPanel>
-                <Image Source= "C:\Users\Bezi\Desktop\c#_git\Chinczyk\Chinczyk\Chinczyk\images\player3Pown.png"/>
+                <Image Source= "p3Pawn.png"/>
                 <TextBlock>Disconnect from Server</TextBlock>
             </StackPanel>
         </Button>
         <Button Panel.ZIndex="1" x:Name="pl34"  Background="Transparent" BorderThickness="0" HorizontalAlignment="Left" Margin="-139,14,0,0" VerticalAlignment="Top" Width="50" Height="50" ForceCursor="True" Click="Pl11_Click">
             <StackPanel>
-                <Image Source= "C:\Users\Bezi\Desktop\c#_git\Chinczyk\Chinczyk\Chinczyk\images\player3Pown.png" RenderTransformOrigin="-1.978,0.152"/>
+                <Image Source= "p3Pawn.png" RenderTransformOrigin="-1.978,0.152"/>
                 <TextBlock>Disconnect from Server</TextBlock>
                 
 
@@ -93,26 +93,26 @@
 
         <Button Panel.ZIndex="1" x:Name="pl41"  Background="Transparent" BorderThickness="0" HorizontalAlignment="Left" Margin="-139,14,0,0" VerticalAlignment="Top" Width="50" Height="50" ForceCursor="True" Click="Pl11_Click">
             <StackPanel>
-                <Image Source= "C:\Users\Bezi\Desktop\c#_git\Chinczyk\Chinczyk\Chinczyk\images\player4Pown.png"/>
+                <Image Source= "p4Pawn.png"/>
                 <TextBlock>Disconnect from Server</TextBlock>
             </StackPanel>
         </Button>
         <Button Panel.ZIndex="1" x:Name="pl42"  Background="Transparent" BorderThickness="0" HorizontalAlignment="Left" Margin="-139,14,0,0" VerticalAlignment="Top" Width="50" Height="50" ForceCursor="True" Click="Pl11_Click">
             <StackPanel>
-                <Image Source= "C:\Users\Bezi\Desktop\c#_git\Chinczyk\Chinczyk\Chinczyk\images\player4Pown.png"/>
+                <Image Source= "p4Pawn.png"/>
                 <TextBlock>Disconnect from Server</TextBlock>
             </StackPanel>
         </Button>
         <Button Panel.ZIndex="1" x:Name="pl43"  Background="Transparent" BorderThickness="0" HorizontalAlignment="Left" Margin="-139,14,0,0" VerticalAlignment="Top" Width="50" Height="50" ForceCursor="True" Click="Pl11_Click">
             <StackPanel>
-                <Image Source= "C:\Users\Bezi\Desktop\c#_git\Chinczyk\Chinczyk\Chinczyk\images\player4Pown.png"/>
+                <Image Source= "p4Pawn.png"/>
                 <TextBlock>Disconnect from Server</TextBlock>
             </StackPanel>
         </Button>
         <Button Panel.ZIndex="1" x:Name="pl44"  Background="Transparent" BorderThickness="0" HorizontalAlignment="Left" Margin="-139,14,0,0" VerticalAlignment="Top" Width="50" Height="50" ForceCursor="True" Click="Pl11_Click">
             <StackPanel>
-                <Image Source= "C:\Users\Bezi\Desktop\c#_git\Chinczyk\Chinczyk\Chinczyk\images\player4Pown.png" RenderTransformOrigin="-1.978,0.152"/>
-                <TextBlock>Disconnect from Server</TextBlock>
+                <Image Source= "p4Pawn.png" RenderTransformOrigin="-1.978,0.152"/>
+                <TextBlock RenderTransformOrigin="0.562,0.438">Disconnect from Server</TextBlock>
             </StackPanel>
         </Button>
         <Label x:Name="Player1Name" Content="313131"  Panel.ZIndex="10" HorizontalAlignment="Left" Margin="-130,-46,0,0" VerticalAlignment="Top" HorizontalContentAlignment="Center" Width="100"/>

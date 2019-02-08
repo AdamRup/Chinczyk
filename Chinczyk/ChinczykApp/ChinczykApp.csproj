@@ -123,13 +123,22 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="chinczyk-plansza.png" />
-  </ItemGroup>
-  <ItemGroup>
     <ProjectReference Include="..\ChinczykLib\ChinczykLib.csproj">
       <Project>{bf827922-ea60-4337-8b22-8bbb50d7c5a1}</Project>
       <Name>ChinczykLib</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="p1Pawn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="p2Pawn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="p3Pawn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="p4Pawn.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
