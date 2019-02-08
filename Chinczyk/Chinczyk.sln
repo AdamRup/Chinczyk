@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChinczykLib", "ChinczykLib\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProgramTest", "ProgramTest\ProgramTest.csproj", "{C41CA0D5-7343-4ED7-BA32-6EAB2B9C5BC8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChinczykUnitTests", "ChinczykUnitTests\ChinczykUnitTests.csproj", "{2474B343-3306-4283-83EE-C5A24A51B490}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{C41CA0D5-7343-4ED7-BA32-6EAB2B9C5BC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C41CA0D5-7343-4ED7-BA32-6EAB2B9C5BC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C41CA0D5-7343-4ED7-BA32-6EAB2B9C5BC8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2474B343-3306-4283-83EE-C5A24A51B490}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2474B343-3306-4283-83EE-C5A24A51B490}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2474B343-3306-4283-83EE-C5A24A51B490}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2474B343-3306-4283-83EE-C5A24A51B490}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

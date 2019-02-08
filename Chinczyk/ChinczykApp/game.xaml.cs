@@ -50,30 +50,30 @@ namespace ChinczykApp
             //wyświetlanie planszy////////////////////
             for (int i = 0; i < gameModel.gameBoard.PathPoint.Length; i++)
             {
-                addImage(@"C:\Users\Bezi\Desktop\c#_git\Chinczyk\Chinczyk\Chinczyk\images\1.png", 50, 50, new Thickness(gameModel.gameBoard.PathPoint[i].X + 15, gameModel.gameBoard.PathPoint[i].Y + 15, 0, 0));
+                addImage(@"images\field.png", 50, 50, new Thickness(gameModel.gameBoard.PathPoint[i].X + 15, gameModel.gameBoard.PathPoint[i].Y + 15, 0, 0));
             }
             
 
 
             for (int i = 0; i < 4; i++)
             {
-                addImage(@"C:\Users\Bezi\Desktop\c#_git\Chinczyk\Chinczyk\Chinczyk\images\player1.png", 50, 50, new Thickness(gameModel.gameBoard.BasePointPlayer1[i].X + 15, gameModel.gameBoard.BasePointPlayer1[i].Y + 15, 0, 0));
-                addImage(@"C:\Users\Bezi\Desktop\c#_git\Chinczyk\Chinczyk\Chinczyk\images\player2.png", 50, 50, new Thickness(gameModel.gameBoard.BasePointPlayer2[i].X + 15, gameModel.gameBoard.BasePointPlayer2[i].Y + 15, 0, 0));
-                addImage(@"C:\Users\Bezi\Desktop\c#_git\Chinczyk\Chinczyk\Chinczyk\images\player3.png", 50, 50, new Thickness(gameModel.gameBoard.BasePointPlayer3[i].X + 15, gameModel.gameBoard.BasePointPlayer3[i].Y + 15, 0, 0));
-                addImage(@"C:\Users\Bezi\Desktop\c#_git\Chinczyk\Chinczyk\Chinczyk\images\player4.png", 50, 50, new Thickness(gameModel.gameBoard.BasePointPlayer4[i].X + 15, gameModel.gameBoard.BasePointPlayer4[i].Y + 15, 0, 0));
+                addImage(@"images\p1FinishField.png", 50, 50, new Thickness(gameModel.gameBoard.BasePointPlayer1[i].X + 15, gameModel.gameBoard.BasePointPlayer1[i].Y + 15, 0, 0));
+                addImage(@"images\p2FinishField.png", 50, 50, new Thickness(gameModel.gameBoard.BasePointPlayer2[i].X + 15, gameModel.gameBoard.BasePointPlayer2[i].Y + 15, 0, 0));
+                addImage(@"images\p3FinishField.png", 50, 50, new Thickness(gameModel.gameBoard.BasePointPlayer3[i].X + 15, gameModel.gameBoard.BasePointPlayer3[i].Y + 15, 0, 0));
+                addImage(@"images\p4FinishField.png", 50, 50, new Thickness(gameModel.gameBoard.BasePointPlayer4[i].X + 15, gameModel.gameBoard.BasePointPlayer4[i].Y + 15, 0, 0));
 
-                addImage(@"C:\Users\Bezi\Desktop\c#_git\Chinczyk\Chinczyk\Chinczyk\images\player1.png", 50, 50, new Thickness(gameModel.gameBoard.FinishPointPlayer1[i].X + 15, gameModel.gameBoard.FinishPointPlayer1[i].Y + 15, 0, 0));
-                addImage(@"C:\Users\Bezi\Desktop\c#_git\Chinczyk\Chinczyk\Chinczyk\images\player2.png", 50, 50, new Thickness(gameModel.gameBoard.FinishPointPlayer2[i].X + 15, gameModel.gameBoard.FinishPointPlayer2[i].Y + 15, 0, 0));
-                addImage(@"C:\Users\Bezi\Desktop\c#_git\Chinczyk\Chinczyk\Chinczyk\images\player3.png", 50, 50, new Thickness(gameModel.gameBoard.FinishPointPlayer3[i].X + 15, gameModel.gameBoard.FinishPointPlayer3[i].Y + 15, 0, 0));
-                addImage(@"C:\Users\Bezi\Desktop\c#_git\Chinczyk\Chinczyk\Chinczyk\images\player4.png", 50, 50, new Thickness(gameModel.gameBoard.FinishPointPlayer4[i].X + 15, gameModel.gameBoard.FinishPointPlayer4[i].Y + 15, 0, 0));
+                addImage(@"images\p1FinishField.png", 50, 50, new Thickness(gameModel.gameBoard.FinishPointPlayer1[i].X + 15, gameModel.gameBoard.FinishPointPlayer1[i].Y + 15, 0, 0));
+                addImage(@"images\p2FinishField.png", 50, 50, new Thickness(gameModel.gameBoard.FinishPointPlayer2[i].X + 15, gameModel.gameBoard.FinishPointPlayer2[i].Y + 15, 0, 0));
+                addImage(@"images\p3FinishField.png", 50, 50, new Thickness(gameModel.gameBoard.FinishPointPlayer3[i].X + 15, gameModel.gameBoard.FinishPointPlayer3[i].Y + 15, 0, 0));
+                addImage(@"images\p4FinishField.png", 50, 50, new Thickness(gameModel.gameBoard.FinishPointPlayer4[i].X + 15, gameModel.gameBoard.FinishPointPlayer4[i].Y + 15, 0, 0));
 
 
             }
 
-            addImage(@"C:\Users\Bezi\Desktop\c#_git\Chinczyk\Chinczyk\Chinczyk\images\player1.png", 50, 50, new Thickness(gameModel.gameBoard.StartPointPlayer1.X + 15, gameModel.gameBoard.StartPointPlayer1.Y + 15, 0, 0));
-            addImage(@"C:\Users\Bezi\Desktop\c#_git\Chinczyk\Chinczyk\Chinczyk\images\player2.png", 50, 50, new Thickness(gameModel.gameBoard.StartPointPlayer2.X + 15, gameModel.gameBoard.StartPointPlayer2.Y + 15, 0, 0));
-            addImage(@"C:\Users\Bezi\Desktop\c#_git\Chinczyk\Chinczyk\Chinczyk\images\player3.png", 50, 50, new Thickness(gameModel.gameBoard.StartPointPlayer3.X + 15, gameModel.gameBoard.StartPointPlayer3.Y + 15, 0, 0));
-            addImage(@"C:\Users\Bezi\Desktop\c#_git\Chinczyk\Chinczyk\Chinczyk\images\player4.png", 50, 50, new Thickness(gameModel.gameBoard.StartPointPlayer4.X + 15, gameModel.gameBoard.StartPointPlayer4.Y + 15, 0, 0));
+            addImage(@"images\p1FinishField.png", 50, 50, new Thickness(gameModel.gameBoard.StartPointPlayer1.X + 15, gameModel.gameBoard.StartPointPlayer1.Y + 15, 0, 0));
+            addImage(@"images\p2FinishField.png", 50, 50, new Thickness(gameModel.gameBoard.StartPointPlayer2.X + 15, gameModel.gameBoard.StartPointPlayer2.Y + 15, 0, 0));
+            addImage(@"images\p3FinishField.png", 50, 50, new Thickness(gameModel.gameBoard.StartPointPlayer3.X + 15, gameModel.gameBoard.StartPointPlayer3.Y + 15, 0, 0));
+            addImage(@"images\p4FinishField.png", 50, 50, new Thickness(gameModel.gameBoard.StartPointPlayer4.X + 15, gameModel.gameBoard.StartPointPlayer4.Y + 15, 0, 0));
 
             diceButton.Margin = new Thickness(gameModel.gameBoard.dicePoint.X + 15, gameModel.gameBoard.dicePoint.Y + 15, 0, 0);
             Player1Name.Margin = new Thickness(gameModel.gameBoard.NamePlayer1Point.X + 15, gameModel.gameBoard.NamePlayer1Point.Y + 15, 0, 0);

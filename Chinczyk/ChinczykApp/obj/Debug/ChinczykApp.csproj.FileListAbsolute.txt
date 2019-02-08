@@ -108,3 +108,8 @@ C:\Users\Bezi\Desktop\c#_git\Chinczyk\Chinczyk\Chinczyk\ChinczykApp\bin\Debug\Ch
 C:\Users\Bezi\Desktop\c#_git\Chinczyk\Chinczyk\Chinczyk\ChinczykApp\obj\Debug\ChinczykApp.csproj.CopyComplete
 C:\Users\Bezi\Desktop\c#_git\Chinczyk\Chinczyk\Chinczyk\ChinczykApp\obj\Debug\End.g.cs
 C:\Users\Bezi\Desktop\c#_git\Chinczyk\Chinczyk\Chinczyk\ChinczykApp\obj\Debug\End.baml
+C:\Users\Adam\Documents\GitHub\Chinczyk\Chinczyk\ChinczykApp\bin\Debug\ChinczykLib.dll
+C:\Users\Adam\Documents\GitHub\Chinczyk\Chinczyk\ChinczykApp\bin\Debug\ChinczykLib.pdb
+C:\Users\Adam\Documents\GitHub\Chinczyk\Chinczyk\ChinczykApp\obj\Debug\End.g.cs
+C:\Users\Adam\Documents\GitHub\Chinczyk\Chinczyk\ChinczykApp\obj\Debug\End.baml
+C:\Users\Adam\Documents\GitHub\Chinczyk\Chinczyk\ChinczykApp\obj\Debug\ChinczykApp.csproj.CopyComplete
