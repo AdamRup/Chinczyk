@@ -44,6 +44,7 @@
     <Compile Include="ComputerPlayer.cs" />
     <Compile Include="Dice.cs" />
     <Compile Include="GameBoard.cs" />
+    <Compile Include="GameModel.cs" />
     <Compile Include="HumanPlayer.cs" />
     <Compile Include="IDice.cs" />
     <Compile Include="IPawn.cs" />

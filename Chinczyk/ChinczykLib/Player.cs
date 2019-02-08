@@ -10,10 +10,11 @@ namespace ChinczykLib
     {
         public string Name { get; private set; }
         public int Number { get; private set; }
-        protected Pawn[] pawns;
+        public  Pawn[] pawns;
         protected Dice dice;
 
         public abstract void MovePawn(Pawn pawn);
+     
         /// <summary>
         /// Metoda ustawiająca unikalny numer gracza
         /// </summary>
@@ -34,10 +35,6 @@ namespace ChinczykLib
         /// Metoda losująca wartość kostki z zakresu 1-6
         /// </summary>
         /// <returns></returns>
-        public int RollDice()
-        {
-            dice.Roll();
-            return dice.Value;
-        }
+    
     }
 }

@@ -42,15 +42,15 @@ namespace ChinczykLib
         /// <returns></returns>
         public Pawn SelectPawn(int pawnNumber)
         {
-            int selectedPawn = 0;
-            for (int i = 0; i < pawns.Length; i++)
-            {
-                if (pawns[i].NumberPaw == pawnNumber)
-                {
-                    selectedPawn = i;
-                }
-            }
-            return pawns[selectedPawn];
+            //int selectedPawn = 0;
+            //for (int i = 0; i < pawns.Length; i++)
+            //{
+            //    if (pawns[i].NumberPaw == pawnNumber)
+            //    {
+            //        selectedPawn = i;
+            //    }
+            //}
+            return pawns[pawnNumber-1];
         }
     }
 }

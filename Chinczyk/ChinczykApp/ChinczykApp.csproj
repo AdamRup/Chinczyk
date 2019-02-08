@@ -55,9 +55,16 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="End.xaml.cs">
+      <DependentUpon>End.xaml</DependentUpon>
+    </Compile>
     <Compile Include="rules.xaml.cs">
       <DependentUpon>rules.xaml</DependentUpon>
     </Compile>
+    <Page Include="End.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="game.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -117,6 +124,12 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="chinczyk-plansza.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ChinczykLib\ChinczykLib.csproj">
+      <Project>{bf827922-ea60-4337-8b22-8bbb50d7c5a1}</Project>
+      <Name>ChinczykLib</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

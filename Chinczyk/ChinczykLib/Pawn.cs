@@ -12,7 +12,9 @@ namespace ChinczykLib
         private int field;
         private Point[] path;
         private Point startPosition;
+        public bool IsLeaveTheBase { get; private set; }
 
+        public bool IsActive {get ; set;}
         public string ImgPath { get; }
         public Point Position { get; private set; }
         public string PawnColor { get; }
@@ -36,7 +38,9 @@ namespace ChinczykLib
             ImgPath = _ImgePath;
             path = _Path;
             startPosition = _StartPosition;
-
+            IsActive = true;
+            IsLeaveTheBase = false;
+            field = 0;
         }
         /// <summary>
         /// Konstruktor obiektu Pawn trzy argumentowy 
@@ -67,28 +71,53 @@ namespace ChinczykLib
         /// </summary>
         /// <param name="NewPosition">O ile pol ma się przesunoc pionek</param>
         /// <param name="path">Tabela z polami po których ma sie poruszac pionek </param>
-        public void Move(int NewPosition )
+        public void Move(int NewPosition)
         {
-            if(!(field + NewPosition >=44))
+            if (IsLeaveTheBase == false)
             {
-                Position = path[field + NewPosition];
-                field = field + NewPosition;
+                LeaveTheBase();
             }
             else
             {
-                throw new Exception("Nie możesz poruszyc tym pionkime");
+                Position = ReturnNewPosition(NewPosition);
+                field = field + NewPosition;
             }
-
+           
             
         }
+        /// <summary>
+        /// funkcja która sprawdz czy pionek może sie poruszyć o zadaną ilośc pól jeżeli tak zwraca nową pozycje  a w przecinym wypadku zwraca pozycie aktulaną
+        /// </summary>
+        /// <param name="NewPosition"></param>
+        /// <returns>zwrócenie nowej pozycji pionka</returns>
+        public Point ReturnNewPosition(int NewPosition)
+        {
+            if ((!(field + NewPosition >= 44))&&IsLeaveTheBase==true)
+            {
+                return path[field + NewPosition];
+                
+
+            }
+            else
+            {
+                return path[field];
+            }
+        }
+
+
         /// <summary>
         /// Opuszczenie bazy przez pionek
         /// </summary>
         /// <param name="StartPoint"> Pozycja od której pionek rozpoczyna przejście po mapie </param>
         public void LeaveTheBase()
         {
-            Position = startPosition;
-            field = 0;
+            if (IsActive)
+            {
+                IsLeaveTheBase = true;
+                Position = startPosition;
+                field = 0;
+            }
+            
         }
 
        

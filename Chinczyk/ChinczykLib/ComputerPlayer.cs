@@ -33,15 +33,12 @@ namespace ChinczykLib
         /// </summary>
         public void Play()
         {
-            dice.Roll();
-            try
+            if(!(SelectPawn() is null))
             {
                 MovePawn(SelectPawn());
             }
-            catch (Exception e)
-            {
-                throw e;
-            }
+            
+            
         }
         /// <summary>
         /// Metoda przesuwająca pionek gracza komputerowego
@@ -49,17 +46,25 @@ namespace ChinczykLib
         /// <param name="pawn">pionek, który ma zostać przesunięty</param>
         public override void MovePawn(Pawn pawn)
         {
-            pawn.Move(dice.Value);
+           pawn.Move(dice.Value);
         }
 
         /// <summary>
-        /// losowy wybór pionka przez gracza komputerowego
+        /// losowy  pionka przez gracza komputerowego
         /// </summary>
         /// <returns></returns>
         public Pawn SelectPawn()
         {
-            Random random = new Random();
-            return pawns[random.Next(0, 4)];
+            if (pawns[0].IsActive)
+                return pawns[0];
+            if (pawns[1].IsActive)
+                return pawns[1];
+            if (pawns[2].IsActive)
+                return pawns[2];
+            if (pawns[3].IsActive)
+                return pawns[3];
+
+            return null;
         }
     }
 }
