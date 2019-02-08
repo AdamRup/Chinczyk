@@ -6,6 +6,9 @@
         xmlns:local="clr-namespace:ChinczykApp"
         mc:Ignorable="d"
         Title="End" Height="450" Width="800">
+    <Window.Background>
+        <ImageBrush ImageSource="chiński-mur.jpg"/>
+    </Window.Background>
     <Grid x:Name="myGrid" VerticalAlignment="Center" HorizontalAlignment="Center">
         <Label x:Name="WinerName" Content="Label" HorizontalAlignment="Center" Margin="192,97,178,99" VerticalAlignment="Center" RenderTransformOrigin="-4.158,-3.058"/>
 

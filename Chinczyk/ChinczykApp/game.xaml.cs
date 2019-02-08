@@ -51,7 +51,7 @@ namespace ChinczykApp
             for (int i = 0; i < gameModel.gameBoard.PathPoint.Length; i++)
             {
                
-                      addImage(@"\images\Field.png", 50, 50, new Thickness(gameModel.gameBoard.PathPoint[i].X + 15, gameModel.gameBoard.PathPoint[i].Y + 15, 0, 0));
+                      addImage(@"\images\field.png", 50, 50, new Thickness(gameModel.gameBoard.PathPoint[i].X + 15, gameModel.gameBoard.PathPoint[i].Y + 15, 0, 0));
                
             }
 
@@ -123,9 +123,6 @@ namespace ChinczykApp
         /// <param name="margin">obiek thinkness który zawiera marginesy </param>
         public void addImage(string src, int width, int hight, Thickness margin , string name = null)
         {
-
-
-
             // Tworzenie zdjecia
             Image myImage = new Image();
             myImage.Width = width;

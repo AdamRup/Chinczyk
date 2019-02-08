@@ -8,6 +8,6 @@ namespace ChinczykLib
 {
     interface IDice
     {
-        void Roll(int Value);
+        void Roll();
     }
 }

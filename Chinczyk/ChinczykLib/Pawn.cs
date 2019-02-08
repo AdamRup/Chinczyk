@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ChinczykLib
 {
-    public class Pawn
+    public class Pawn : IPawn
     {
 
         private int field;

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ChinczykLib
 {
-    public class Dice
+    public class Dice : IDice
     {
         public string ImgPath { get; private set; }
         public int Value { get; private set; }  // zakres wartości to 1-6

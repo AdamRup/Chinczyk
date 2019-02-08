@@ -5,8 +5,14 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ChinczykApp"
         mc:Ignorable="d"
-        Title="rules" Height="450" Width="800">
+        Title="rules" Height="491" Width="800" ResizeMode="NoResize">
     <Grid>
-        
+        <Grid.Background>
+            <ImageBrush ImageSource="chiński-mur.jpg"/>
+        </Grid.Background>
+        <Grid HorizontalAlignment="Left" Height="442" Margin="200,10,0,0" VerticalAlignment="Top" Width="400" Background="#99808080">
+            <TextBlock HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="422" Width="380" TextAlignment="Center" FontWeight="Bold"><Run Text="Gra dla 2-4 osób, w której celem graczy jest przejechanie dookoła planszy czterema pionkami z pozycji początkowych na końcowe. Pierwszy gracz, który tego dokona, wygrywa."/><LineBreak/><Run/><LineBreak/><Run/><LineBreak/><Run Text="Ruch w grze polega na przesunięciu na planszy dowolnego z własnych pionów o tyle pól, ile oczek zostanie wyrzuconych na kostce (1-6). "/><LineBreak/><Run/><LineBreak/><Run Text="Jeśli na docelowym polu znajduje się pion przeciwnika, to jest on usuwany i wraca na jedną z początkowych pozycji, a jeśli znajduje się tam własny pion, to taki ruch jest niedozwolony."/><LineBreak/><Run/><LineBreak/><Run Text="Wyrzucając 6 oczek na kostce, gracz wykonuje dodatkowy ruch, ale nie może wykonać pod rząd więcej niż 3 takie ruchy."/><LineBreak/><Run/><LineBreak/><Run Text="Aby wyjechać pionem z pozycji początkowej konieczne jest wyrzucenie szóstki."/><LineBreak/><Run/><LineBreak/><Run Text="Dowolny pion jest wtedy umieszczany na pierwszym polu planszy oznaczonym w kolorze pionów gracza. "/><LineBreak/><Run/><LineBreak/><Run Text="Jeśli gracz posiada wszystkie swoje piony na pozycjach początkowych to przysługują mu trzy próby na wyrzucenie szóstki wymaganej do wyjechania dowolnym z pionów."/></TextBlock>
+        </Grid>
+
     </Grid>
 </Window>

@@ -140,5 +140,8 @@
   <ItemGroup>
     <Resource Include="p4Pawn.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="chiński-mur.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

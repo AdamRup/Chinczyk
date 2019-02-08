@@ -7,6 +7,9 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="chiński-mur.jpg"/>
+        </Grid.Background>
         <Button x:Name="newGameButton" Content="Nowa gra" HorizontalAlignment="Left" Margin="362,153,0,0" VerticalAlignment="Top" Width="75" Click="newGameButton_Click"/>
         <Button x:Name="rulesButton" Content="Zasady" HorizontalAlignment="Left" Margin="362,178,0,0" VerticalAlignment="Top" Width="75" Click="rulesButton_Click"/>
         <Button x:Name="exitButton" Content="Wyjdź" HorizontalAlignment="Left" Margin="362,203,0,0" VerticalAlignment="Top" Width="75" Click="exitButton_Click"/>
