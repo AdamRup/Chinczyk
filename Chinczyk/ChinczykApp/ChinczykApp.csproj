@@ -143,5 +143,20 @@
   <ItemGroup>
     <Resource Include="chiński-mur.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="field.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="p4FinishField.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="p1FinishField.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="p2FinishField.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="p3FinishField.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

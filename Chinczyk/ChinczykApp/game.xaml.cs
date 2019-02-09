@@ -45,38 +45,38 @@ namespace ChinczykApp
             ////////////////////////////////////////////////////////////////
 
             //stworzenie modelu gry 
-            gameModel = new GameModel(1, "kamil", "kuba", "janusz" , "Paweł");
+            gameModel = new GameModel(1, "Tomek", "Rysiek", "Janusz" , "Paweł");
 
             //wyświetlanie planszy////////////////////
             for (int i = 0; i < gameModel.gameBoard.PathPoint.Length; i++)
             {
                
-                      addImage(@"\images\field.png", 50, 50, new Thickness(gameModel.gameBoard.PathPoint[i].X + 15, gameModel.gameBoard.PathPoint[i].Y + 15, 0, 0));
+                      addImage(@"field.png", 50, 50, new Thickness(gameModel.gameBoard.PathPoint[i].X + 15, gameModel.gameBoard.PathPoint[i].Y + 15, 0, 0));
                
             }
 
-
+            
             
             for (int i = 0; i < 4; i++)
             {
                 
-                addImage(@"\images\p1FinishField.png", 50, 50, new Thickness(gameModel.gameBoard.BasePointPlayer1[i].X + 15, gameModel.gameBoard.BasePointPlayer1[i].Y + 15, 0, 0));
-                addImage(@"\images\p2FinishField.png", 50, 50, new Thickness(gameModel.gameBoard.BasePointPlayer2[i].X + 15, gameModel.gameBoard.BasePointPlayer2[i].Y + 15, 0, 0));
-                addImage(@"\images\p3FinishField.png", 50, 50, new Thickness(gameModel.gameBoard.BasePointPlayer3[i].X + 15, gameModel.gameBoard.BasePointPlayer3[i].Y + 15, 0, 0));
-                addImage(@"\images\p4FinishField.png", 50, 50, new Thickness(gameModel.gameBoard.BasePointPlayer4[i].X + 15, gameModel.gameBoard.BasePointPlayer4[i].Y + 15, 0, 0));
+                addImage(@"p1FinishField.png", 50, 50, new Thickness(gameModel.gameBoard.BasePointPlayer1[i].X + 15, gameModel.gameBoard.BasePointPlayer1[i].Y + 15, 0, 0));
+                addImage(@"p2FinishField.png", 50, 50, new Thickness(gameModel.gameBoard.BasePointPlayer2[i].X + 15, gameModel.gameBoard.BasePointPlayer2[i].Y + 15, 0, 0));
+                addImage(@"p3FinishField.png", 50, 50, new Thickness(gameModel.gameBoard.BasePointPlayer3[i].X + 15, gameModel.gameBoard.BasePointPlayer3[i].Y + 15, 0, 0));
+                addImage(@"p4FinishField.png", 50, 50, new Thickness(gameModel.gameBoard.BasePointPlayer4[i].X + 15, gameModel.gameBoard.BasePointPlayer4[i].Y + 15, 0, 0));
 
-                addImage(@"\images\p1FinishField.png", 50, 50, new Thickness(gameModel.gameBoard.FinishPointPlayer1[i].X + 15, gameModel.gameBoard.FinishPointPlayer1[i].Y + 15, 0, 0));
-                addImage(@"\images\p2FinishField.png", 50, 50, new Thickness(gameModel.gameBoard.FinishPointPlayer2[i].X + 15, gameModel.gameBoard.FinishPointPlayer2[i].Y + 15, 0, 0));
-                addImage(@"\images\p3FinishField.png", 50, 50, new Thickness(gameModel.gameBoard.FinishPointPlayer3[i].X + 15, gameModel.gameBoard.FinishPointPlayer3[i].Y + 15, 0, 0));
-                addImage(@"\images\p4FinishField.png", 50, 50, new Thickness(gameModel.gameBoard.FinishPointPlayer4[i].X + 15, gameModel.gameBoard.FinishPointPlayer4[i].Y + 15, 0, 0));
+                addImage(@"p1FinishField.png", 50, 50, new Thickness(gameModel.gameBoard.FinishPointPlayer1[i].X + 15, gameModel.gameBoard.FinishPointPlayer1[i].Y + 15, 0, 0));
+                addImage(@"p2FinishField.png", 50, 50, new Thickness(gameModel.gameBoard.FinishPointPlayer2[i].X + 15, gameModel.gameBoard.FinishPointPlayer2[i].Y + 15, 0, 0));
+                addImage(@"p3FinishField.png", 50, 50, new Thickness(gameModel.gameBoard.FinishPointPlayer3[i].X + 15, gameModel.gameBoard.FinishPointPlayer3[i].Y + 15, 0, 0));
+                addImage(@"p4FinishField.png", 50, 50, new Thickness(gameModel.gameBoard.FinishPointPlayer4[i].X + 15, gameModel.gameBoard.FinishPointPlayer4[i].Y + 15, 0, 0));
 
 
             }
 
-            addImage(@"\images\p1FinishField.png", 50, 50, new Thickness(gameModel.gameBoard.StartPointPlayer1.X + 15, gameModel.gameBoard.StartPointPlayer1.Y + 15, 0, 0));
-            addImage(@"\images\p2FinishField.png", 50, 50, new Thickness(gameModel.gameBoard.StartPointPlayer2.X + 15, gameModel.gameBoard.StartPointPlayer2.Y + 15, 0, 0));
-            addImage(@"\images\p3FinishField.png", 50, 50, new Thickness(gameModel.gameBoard.StartPointPlayer3.X + 15, gameModel.gameBoard.StartPointPlayer3.Y + 15, 0, 0));
-            addImage(@"\images\p4FinishField.png", 50, 50, new Thickness(gameModel.gameBoard.StartPointPlayer4.X + 15, gameModel.gameBoard.StartPointPlayer4.Y + 15, 0, 0));
+            addImage(@"p1FinishField.png", 50, 50, new Thickness(gameModel.gameBoard.StartPointPlayer1.X + 15, gameModel.gameBoard.StartPointPlayer1.Y + 15, 0, 0));
+            addImage(@"p2FinishField.png", 50, 50, new Thickness(gameModel.gameBoard.StartPointPlayer2.X + 15, gameModel.gameBoard.StartPointPlayer2.Y + 15, 0, 0));
+            addImage(@"p3FinishField.png", 50, 50, new Thickness(gameModel.gameBoard.StartPointPlayer3.X + 15, gameModel.gameBoard.StartPointPlayer3.Y + 15, 0, 0));
+            addImage(@"p4FinishField.png", 50, 50, new Thickness(gameModel.gameBoard.StartPointPlayer4.X + 15, gameModel.gameBoard.StartPointPlayer4.Y + 15, 0, 0));
             
             diceButton.Margin = new Thickness(gameModel.gameBoard.dicePoint.X + 15, gameModel.gameBoard.dicePoint.Y + 15, 0, 0);
             Player1Name.Margin = new Thickness(gameModel.gameBoard.NamePlayer1Point.X + 15, gameModel.gameBoard.NamePlayer1Point.Y + 15, 0, 0);
@@ -131,7 +131,7 @@ namespace ChinczykApp
             BitmapImage myBitmapImage = new BitmapImage();
             myBitmapImage.BeginInit();
 
-            myBitmapImage.UriSource = new Uri(Environment.CurrentDirectory + src, UriKind.RelativeOrAbsolute);
+            myBitmapImage.UriSource = new Uri( src, UriKind.RelativeOrAbsolute);
 
             //myBitmapImage.DecodePixelWidth = 200;
             myBitmapImage.EndInit();
@@ -216,8 +216,8 @@ namespace ChinczykApp
                     gameModel.NextRound();
 
                     }
-                diceButton.IsEnabled = true;
-            }
+                    diceButton.IsEnabled = true;
+               }
         }
         /// <summary>
         /// wywołanie podczas klikniecia w pionek
