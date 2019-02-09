@@ -11,9 +11,14 @@ namespace ChinczykLib
     /// </summary>
     public class GameBoard
     {
+        /// <summary>
+        /// Własciwość która przechowuje pola po których poruszają się pionki
+        /// </summary>
         public Point[] PathPoint { get; }
         
-
+        /// <summary>
+        /// zwraca tablice punktów po kturych może się poruszać gracz 1 , pierszy element zwracanej tablicy to punk startowy a ostatnie cztery to punkty koncowe
+        /// </summary>
         public Point[] PathPlayer1
         {
             get
@@ -32,7 +37,10 @@ namespace ChinczykLib
 
 
         }
+        /// <summary>
+        /// zwraca tablice punktów po kturych może się poruszać gracz 2 , pierszy element zwracanej tablicy to pink startowy a ostatnie cztery to punkty koncowe
 
+        /// </summary>
         public Point[] PathPlayer2
         {
             get
@@ -51,7 +59,9 @@ namespace ChinczykLib
 
 
         }
-
+        /// <summary>
+        /// zwraca tablice punktów po kturych może się poruszać gracz 3 , pierszy element zwracanej tablicy to pink startowy a ostatnie cztery to punkty koncowe
+        /// </summary>
         public Point[] PathPlayer3
         {
             get
@@ -70,7 +80,10 @@ namespace ChinczykLib
 
 
         }
+        /// <summary>
+        /// zwraca tablice punktów po kturych może się poruszać gracz 4 , pierszy element zwracanej tablicy to pink startowy a ostatnie cztery to punkty koncowe
 
+        /// </summary>
         public Point[] PathPlayer4
         {
             get
@@ -91,27 +104,78 @@ namespace ChinczykLib
         }
 
 
-        /// punkty w których gracze zaczynają chodzić po mapie
+        // punkty w których gracze zaczynają chodzić po mapie
+        /// <summary>
+        /// zwraca punk w którym gracz 1 rozpoczyna okrazenie planszy
+        /// </summary>
         public Point StartPointPlayer1 { get { return PathPoint[30]; } }
+        /// <summary>
+        /// zwraca punk w którym gracz 2 rozpoczyna okrazenie planszy
+        /// </summary>
         public Point StartPointPlayer2 { get { return PathPoint[0]; } }
+        /// <summary>
+        /// zwraca punk w którym gracz 3 rozpoczyna okrazenie planszy
+        /// </summary>
         public Point StartPointPlayer3 { get { return PathPoint[20]; } }
+        /// <summary>
+        /// zwraca punk w którym gracz 4 rozpoczyna okrazenie planszy
+        /// </summary>
         public Point StartPointPlayer4 { get { return PathPoint[10]; } }
         // punkty w których gracze zaczynają rozgrywke
+        /// <summary>
+        /// zwraca tablice czterech punktów na których powiny byc ustawione pionki gracza1  na samym początku rozgrywki
+        /// </summary>
         public Point[] BasePointPlayer1 { get; }
+        /// <summary>
+        /// zwraca tablice czterech punktów na których powiny byc ustawione pionki gracza2  na samym początku rozgrywki
+        /// </summary>
         public Point[] BasePointPlayer2 { get; }
+        /// <summary>
+        /// zwraca tablice czterech punktów na których powiny byc ustawione pionki gracza3  na samym początku rozgrywki
+        /// </summary>
         public Point[] BasePointPlayer3 { get; }
+        /// <summary>
+        /// zwraca tablice czterech punktów na których powiny byc ustawione pionki gracza4  na samym początku rozgrywki
+        /// </summary>
         public Point[] BasePointPlayer4 { get; }
         // punkty w któryczh gracze konczą rozgrywkę
+        /// <summary>
+        /// zwraca tablice czterech punktów na ktorych gracz  1 konczy obieg plaszy
+        /// </summary>
         public Point[] FinishPointPlayer1 { get; }
+        /// <summary>
+        /// zwraca tablice czterech punktów na ktorych gracz  2 konczy obieg plaszy
+        /// </summary>
         public Point[] FinishPointPlayer2 { get; }
+        /// <summary>
+        /// zwraca tablice czterech punktów na ktorych gracz  3 konczy obieg plaszy
+        /// </summary>
         public Point[] FinishPointPlayer3 { get; }
+        /// <summary>
+        /// zwraca tablice czterech punktów na ktorych gracz  4 konczy obieg plaszy
+        /// </summary>
         public Point[] FinishPointPlayer4 { get; }
         // dicePoint - punkt w  ktorym bedzie umieszczona kostka
+        /// <summary>
+        /// zwraca punk w którym powinna byc ustawiona kostka
+        /// </summary>
         public Point dicePoint { get; }
-        /// punkty w krórych bedą wyświetlane nazwy graczy
+        //punkty w krórych bedą wyświetlane nazwy graczy
+        /// <summary>
+        /// zwraca punkt w którym bedzie wyświetlana nazwa gracza 1
+        /// </summary>
         public Point NamePlayer1Point { get; }
+        /// <summary>
+        /// zwraca punkt w którym bedzie wyświetlana nazwa gracza 2
+        /// </summary>
         public Point NamePlayer2Point { get; }
+        /// <summary>
+        /// zwraca punkt w którym bedzie wyświetlana nazwa gracza 3
+        /// </summary>
         public Point NamePlayer3Point { get; }
+        /// <summary>
+        /// zwraca punkt w którym bedzie wyświetlana nazwa gracza 4
+        /// </summary>
         public Point NamePlayer4Point { get; }
 
         /// <summary>
