@@ -1,81 +1,81 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
-  <Class Name="ChinczykLib.ComputerPlayer" Collapsed="true">
-    <Position X="0.5" Y="4.5" Width="1.5" />
+  <Class Name="ChinczykLib.ComputerPlayer">
+    <Position X="0.5" Y="3.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAABAAAAAAAAAAAAgAAgAAAAAAAAAA=</HashCode>
       <FileName>ComputerPlayer.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="ChinczykLib.Dice" Collapsed="true">
-    <Position X="4.25" Y="2.75" Width="1.5" />
+  <Class Name="ChinczykLib.Dice" BaseTypeListCollapsed="true">
+    <Position X="5" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAACCAAAAIAAAAAAAAAAAAgAAAAAAA=</HashCode>
       <FileName>Dice.cs</FileName>
     </TypeIdentifier>
-    <Lollipop Position="0.2" />
+    <Lollipop Position="0.2" Collapsed="true" />
   </Class>
-  <Class Name="ChinczykLib.GameBoard" Collapsed="true">
-    <Position X="9.25" Y="2.75" Width="1.5" />
+  <Class Name="ChinczykLib.GameBoard">
+    <Position X="7" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>EAgAAAAAAAQCAAAEAgYAAIAQAQAAAAAAAABAAICAJQA=</HashCode>
       <FileName>GameBoard.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="ChinczykLib.GameModel" Collapsed="true">
-    <Position X="11.25" Y="2.75" Width="1.5" />
+  <Class Name="ChinczykLib.GameModel">
+    <Position X="8.75" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AQAAAQAEAAIAAAAMBAAAAAAAQAAAAAAAICAAgIAgAAA=</HashCode>
       <FileName>GameModel.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="ChinczykLib.HumanPlayer" Collapsed="true">
-    <Position X="2.25" Y="4.5" Width="1.5" />
+  <Class Name="ChinczykLib.HumanPlayer">
+    <Position X="2.75" Y="3.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAABAAAAAAAAAAAAgAAAAAAAAAAAAA=</HashCode>
       <FileName>HumanPlayer.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="ChinczykLib.Pawn" Collapsed="true">
-    <Position X="7" Y="2.75" Width="1.5" />
+  <Class Name="ChinczykLib.Pawn" BaseTypeListCollapsed="true">
+    <Position X="5" Y="2.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AACAAAAAIIAAABAwEAACAAIABCAAAAAAAAAAgAAAAAA=</HashCode>
       <FileName>Pawn.cs</FileName>
     </TypeIdentifier>
-    <Lollipop Position="0.2" />
+    <Lollipop Position="0.2" Collapsed="true" />
   </Class>
-  <Class Name="ChinczykLib.Player" Collapsed="true">
-    <Position X="1.25" Y="2.75" Width="1.5" />
+  <Class Name="ChinczykLib.Player">
+    <Position X="1.75" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AQAAAAAABAAAAAAABEBAAAQAAAAAAAAAAAAAQAAAAAA=</HashCode>
       <FileName>Player.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
-  <Class Name="ChinczykLib.Point" Collapsed="true">
-    <Position X="13.25" Y="2.75" Width="1.5" />
+  <Class Name="ChinczykLib.Point" BaseTypeListCollapsed="true">
+    <Position X="10.5" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAYAA=</HashCode>
       <FileName>Point.cs</FileName>
     </TypeIdentifier>
-    <Lollipop Position="0.2" />
+    <Lollipop Position="0.2" Collapsed="true" />
   </Class>
-  <Interface Name="ChinczykLib.IDice" Collapsed="true">
-    <Position X="4.25" Y="1.5" Width="1.5" />
+  <Interface Name="ChinczykLib.IDice">
+    <Position X="11.5" Y="5.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>IDice.cs</FileName>
     </TypeIdentifier>
   </Interface>
-  <Interface Name="ChinczykLib.IPawn" Collapsed="true">
-    <Position X="7" Y="1.5" Width="1.5" />
+  <Interface Name="ChinczykLib.IPawn">
+    <Position X="13.25" Y="5.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>IPawn.cs</FileName>
     </TypeIdentifier>
   </Interface>
-  <Interface Name="ChinczykLib.IPlayer" Collapsed="true">
-    <Position X="1.25" Y="1.5" Width="1.5" />
+  <Interface Name="ChinczykLib.IPlayer">
+    <Position X="15" Y="5.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>IPlayer.cs</FileName>
