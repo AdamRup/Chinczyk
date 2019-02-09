@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace ChinczykLib
 {
+    /// <summary>
+    /// Klasa definiująca gracza komputerowego
+    /// </summary>
     public class ComputerPlayer : Player
     {
         /// <summary>
@@ -37,8 +40,6 @@ namespace ChinczykLib
             {
                 MovePawn(SelectPawn());
             }
-            
-            
         }
         /// <summary>
         /// Metoda przesuwająca pionek gracza komputerowego
@@ -52,7 +53,7 @@ namespace ChinczykLib
         /// <summary>
         /// losowy  pionka przez gracza komputerowego
         /// </summary>
-        /// <returns></returns>
+        /// <returns>pionek, który zostanie przesunięty o wylosowaną liczbę pól</returns>
         public Pawn SelectPawn()
         {
             if (pawns[0].IsActive)

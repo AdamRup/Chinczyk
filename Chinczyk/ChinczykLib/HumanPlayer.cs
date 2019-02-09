@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace ChinczykLib
 {
+    /// <summary>
+    /// Klasa definiująca gracza (użytkownika)
+    /// </summary>
     public class HumanPlayer : Player
     {
         /// <summary>
@@ -39,17 +42,9 @@ namespace ChinczykLib
         /// Metoda zwracająca pionek, który ma zostać przesunięty
         /// </summary>
         /// <param name="pawnNumber">wartość typu int z numerem pionka</param>
-        /// <returns></returns>
+        /// <returns>Pionek, który wybrał gracz do przesunięcia na planszy</returns>
         public Pawn SelectPawn(int pawnNumber)
         {
-            //int selectedPawn = 0;
-            //for (int i = 0; i < pawns.Length; i++)
-            //{
-            //    if (pawns[i].NumberPaw == pawnNumber)
-            //    {
-            //        selectedPawn = i;
-            //    }
-            //}
             return pawns[pawnNumber-1];
         }
     }

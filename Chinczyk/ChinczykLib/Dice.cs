@@ -6,9 +6,18 @@ using System.Threading.Tasks;
 
 namespace ChinczykLib
 {
+    /// <summary>
+    /// Klasa definiująca kostkę do gry
+    /// </summary>
     public class Dice : IDice
     {
+        /// <summary>
+        /// Właściwość przechowująca ścieżkę do zdjęcia kostki
+        /// </summary>
         public string ImgPath { get; private set; }
+        /// <summary>
+        /// Właściwość przechowująca wartość (ilość oczek) kostki
+        /// </summary>
         public int Value { get; private set; }  // zakres wartości to 1-6
 
         /// <summary>
@@ -20,25 +29,25 @@ namespace ChinczykLib
             switch (Value)
             {
                 case 1:
-                    path = "";  //uzupełnić ścieżkę do zdjęcia z kostką
+                    path = "";
                     break;
                 case 2:
-                    path = "";  //uzupełnić ścieżkę do zdjęcia z kostką
+                    path = "";
                     break;
                 case 3:
-                    path = "";  //uzupełnić ścieżkę do zdjęcia z kostką
+                    path = "";
                     break;
                 case 4:
-                    path = "";  //uzupełnić ścieżkę do zdjęcia z kostką
+                    path = "";
                     break;
                 case 5:
-                    path = "";  //uzupełnić ścieżkę do zdjęcia z kostką
+                    path = "";
                     break;
                 case 6:
-                    path = "";  //uzupełnić ścieżkę do zdjęcia z kostką
+                    path = "";
                     break;
                 default:
-                    path = "";  //uzupełnić ścieżkę do zdjęcia z kostką
+                    path = "";
                     break;
             }
             ImgPath = path;

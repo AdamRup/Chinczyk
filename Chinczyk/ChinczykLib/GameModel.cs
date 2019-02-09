@@ -6,18 +6,39 @@ using System.Threading.Tasks;
 
 namespace ChinczykLib
 {
-
-
-
+    /// <summary>
+    /// Klasa definiująca model gry
+    /// </summary>
     public class GameModel
     {
+        /// <summary>
+        /// Właściwość przechowująca tablicę wszystkich graczy
+        /// </summary>
         public Player[] players { get; }
+        /// <summary>
+        /// Właściwość przechowująca planszę do gry
+        /// </summary>
         public GameBoard gameBoard { get; }
+        /// <summary>
+        /// Właściwość przechowująca kostkę do gry
+        /// </summary>
         public Dice dice { get; }
         private int count =-1;
+        /// <summary>
+        /// Właściwość przechowująca gracza-zwycięzcę gry
+        /// </summary>
         public Player Winer { get; private set; }
+        /// <summary>
+        /// Właściwość przechowująca aktualnie grającego gracza
+        /// </summary>
         public Player CurrentPlayer { get; private set; }
+        /// <summary>
+        /// Właściwość przechowująca kolejnego gracza,który będzie wykonywał ruch
+        /// </summary>
         public Player GetNextPlayer { get { return players[(count+1) % players.Length]; } }
+        /// <summary>
+        /// Właściwość przechowująca drugiego w kolejności gracza, który będzie wykonywał ruch
+        /// </summary>
         public Player GetNextNExtPlayer { get { return players[(count + 2) % players.Length]; } }
 
         /// <summary>

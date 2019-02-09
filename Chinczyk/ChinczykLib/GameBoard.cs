@@ -6,9 +6,11 @@ using System.Threading.Tasks;
 
 namespace ChinczykLib
 {
+    /// <summary>
+    /// Klasa definiująca planszę do gry
+    /// </summary>
     public class GameBoard
     {
-
         public Point[] PathPoint { get; }
         
 

@@ -6,30 +6,50 @@ using System.Threading.Tasks;
 
 namespace ChinczykLib
 {
+    /// <summary>
+    /// Klasa definiująca pionka do gry(Pawn)
+    /// </summary>
     public class Pawn : IPawn
     {
 
         private int field;
         private Point[] path;
         private Point startPosition;
+        /// <summary>
+        /// Właściwość informująca o tym, czy pionek opuścił pole początkowe
+        /// </summary>
         public bool IsLeaveTheBase { get; private set; }
-
+        /// <summary>
+        /// Właściwość informująca o aktywności pionka
+        /// </summary>
         public bool IsActive {get ; set;}
+        /// <summary>
+        /// Właściwość przechowująca ścieżkę do zdjęcia pionka
+        /// </summary>
         public string ImgPath { get; }
+        /// <summary>
+        /// Właściwość przechowująca pozycję pionka
+        /// </summary>
         public Point Position { get; private set; }
+        /// <summary>
+        /// Właściwość przechowująca kolor pionka
+        /// </summary>
         public string PawnColor { get; }
+        /// <summary>
+        /// Właściwość przechowująca numer pionka
+        /// </summary>
         public int NumberPaw { get; }
 
 
         /// <summary>
-        /// Konstruktor obiektu Pawn cztero argumentowy 
+        /// Konstruktor obiektu Pawn 4-argumentowy 
         /// </summary>
         /// <param name="_NumberPawn">Numer pionka (unikalny)</param>
-        /// <param name="_Position">Pozycja startowan pionka na mapie</param>
+        /// <param name="_Position">Pozycja startowa pionka na mapie</param>
         /// <param name="_PawnColor">Kolor ponka </param>
         /// <param name="_ImgePath"> Scieżka do grafiki pionka</param>
         /// <param name="_Path">Scieżka po której pionek przemieszcza się po mapie</param>
-        /// <param name="_StartPosition">Poczotkowy punk od którego pionek rozpoczyna pordróż po mapie</param>
+        /// <param name="_StartPosition">Początkowy punkt od którego pionek rozpoczyna pordróż po mapie</param>
         public Pawn(int _NumberPawn, Point _Position,  Point[] _Path, Point _StartPosition, string _PawnColor, string _ImgePath)
         { 
             NumberPaw = _NumberPawn;
@@ -43,23 +63,23 @@ namespace ChinczykLib
             field = 0;
         }
         /// <summary>
-        /// Konstruktor obiektu Pawn trzy argumentowy 
+        /// Konstruktor obiektu Pawn 3-argumentowy 
         /// </summary>
         /// <param name="_NumberPawn"> Numer pionka (unikalny)</param>
-        /// <param name="_Position">Pozycja startowan pionka na mapie</param>
+        /// <param name="_Position">Pozycja startowa pionka na mapie</param>
         /// <param name="_PawnColor">Kolor ponka </param>
         /// <param name="_Path">Scieżka po której pionek przemieszcza się po mapie</param>
-        /// <param name="_StartPosition">Poczotkowy punk od którego pionek rozpoczyna pordróż po mapie</param>
+        /// <param name="_StartPosition">Początkowy punkt od którego pionek rozpoczyna pordróż po mapie</param>
         public Pawn(int _NumberPawn, Point _Position, string _PawnColor , Point[] _Path, Point _StartPosition) : this(_NumberPawn, _Position, _Path , _StartPosition, _PawnColor, "")
         {
         }
         /// <summary>
-        /// onstruktor obiektu Pawn dwu argumentowy 
+        /// Konstruktor obiektu Pawn 2-argumentowy 
         /// </summary>
         /// <param name="_NumberPawn">Numer pionka (unikalny)</param>
-        /// <param name="_Position">Pozycja startowan pionka na mapie</param>
+        /// <param name="_Position">Pozycja startowa pionka na mapie</param>
         /// <param name="_Path">Scieżka po której pionek przemieszcza się po mapie</param>
-        /// <param name="_StartPosition">Poczotkowy punk od którego pionek rozpoczyna pordróż po mapie</param>
+        /// <param name="_StartPosition">Początkowy punkt od którego pionek rozpoczyna pordróż po mapie</param>
         public Pawn(int _NumberPawn, Point _Position , Point[] _Path , Point _StartPosition) : this(_NumberPawn, _Position,_Path ,_StartPosition, "" ,"")
         {
             
@@ -70,7 +90,6 @@ namespace ChinczykLib
         /// Przesuwanie pionka o daną liczbe pol na mapie
         /// </summary>
         /// <param name="NewPosition">O ile pol ma się przesunoc pionek</param>
-        /// <param name="path">Tabela z polami po których ma sie poruszac pionek </param>
         public void Move(int NewPosition)
         {
             if (IsLeaveTheBase == false)
@@ -106,9 +125,8 @@ namespace ChinczykLib
 
 
         /// <summary>
-        /// Opuszczenie bazy przez pionek
+        /// Opuszczenie bazy przez pionka
         /// </summary>
-        /// <param name="StartPoint"> Pozycja od której pionek rozpoczyna przejście po mapie </param>
         public void LeaveTheBase()
         {
             if (IsActive)
