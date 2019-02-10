@@ -22,30 +22,30 @@ namespace ChinczykApp
     public partial class game : Window
     {
         GameModel gameModel;
+        newGame newGame;
 
-
-        public game()
+        public game(newGame _newGame)
         {
             InitializeComponent();
             int numberHumanPlayer=0;
-            var windowNewGame = new newGame();
-            ;
+            this.newGame = _newGame;
+            
 
             //sprawdzenie checkboxow , ustalwnie ilu mamy ludzkich graczy , zawsze bedzie przynajmniej jeden gracz//to do nie działa ,sprawdzanie checboxow nie dziła 
-            if (windowNewGame.playerOneCheckBox.IsChecked.Value == true)
+            if (newGame.playerOneCheckBox.IsChecked.Value == true)
                 numberHumanPlayer++;
-            if (windowNewGame.playerTwoCheckBox.IsChecked.Value == true)
+            if (newGame.playerTwoCheckBox.IsChecked.Value == true)
                 numberHumanPlayer++;
-            if (windowNewGame.playerThreeCheckBox.IsChecked.Value == true)
+            if (newGame.playerThreeCheckBox.IsChecked.Value == true)
                 numberHumanPlayer++;
-            if (windowNewGame.playerFourCheckBox.IsChecked.Value == true)
+            if (newGame.playerFourCheckBox.IsChecked.Value == true)
                 numberHumanPlayer++;
 
             
             ////////////////////////////////////////////////////////////////
 
             //stworzenie modelu gry 
-            gameModel = new GameModel(1, "Tomek", "Rysiek", "Janusz" , "Paweł");
+            gameModel = new GameModel(numberHumanPlayer, "Tomek", "Rysiek", "Janusz" , "Paweł");
 
             //wyświetlanie planszy////////////////////
             for (int i = 0; i < gameModel.gameBoard.PathPoint.Length; i++)

@@ -26,7 +26,7 @@ namespace ChinczykApp
 
         private void startButton_Click(object sender, RoutedEventArgs e)
         {
-            new game().Show();
+            new game(this).Show();
             this.Close();
         }
 

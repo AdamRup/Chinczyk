@@ -94,3 +94,4 @@ C:\Users\Adam\Documents\GitHub\Chinczyk\Chinczyk\ChinczykApp\obj\Debug\End.g.cs
 C:\Users\Adam\Documents\GitHub\Chinczyk\Chinczyk\ChinczykApp\obj\Debug\End.baml
 C:\Users\Adam\Documents\GitHub\Chinczyk\Chinczyk\ChinczykApp\obj\Debug\ChinczykApp.csproj.CopyComplete
 C:\Users\pc\Informatyka\WSEI\Semestr III\C#\Chinczyk\Chinczyk\ChinczykApp\bin\Debug\ChinczykLib.dll
+C:\Users\Bezi\Desktop\c#_git\Chinczyk\Chinczyk\Chinczyk\ChinczykApp\bin\Debug\ChinczykLib.xml
