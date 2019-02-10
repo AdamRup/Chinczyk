@@ -21,8 +21,8 @@ namespace ChinczykApp
     /// </summary>
     public partial class game : Window
     {
-        GameModel gameModel;
-        newGame newGame;
+        public GameModel gameModel;
+        private newGame newGame;
 
         public game(newGame _newGame)
         {
@@ -239,8 +239,8 @@ namespace ChinczykApp
                 if (!gameModel.NextRound(numberpown))
                   {
                     //zamykanie okna gry i wyświetlenie nazyw zwycięzcy//to do
-                      new End().Show();
-                      new End().WinerName.Content = gameModel.Winer.Name;
+                      new End(this).Show();
+                    
                       this.Close();
 
                   }

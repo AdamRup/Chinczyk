@@ -19,9 +19,12 @@ namespace ChinczykApp
     /// </summary>
     public partial class End : Window
     {
-        public End()
+        private game Game;
+        public End(game _game)
         {
             InitializeComponent();
+            this.Game = _game;
+            WinerName.Content = this.Game.gameModel.Winer.Name;
         }
     }
 }

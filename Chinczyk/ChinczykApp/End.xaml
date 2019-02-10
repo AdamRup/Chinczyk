@@ -10,7 +10,8 @@
         <ImageBrush ImageSource="chiński-mur.jpg"/>
     </Window.Background>
     <Grid x:Name="myGrid" VerticalAlignment="Center" HorizontalAlignment="Center">
-        <Label x:Name="WinerName" Content="Label" HorizontalAlignment="Center" Margin="192,97,178,99" VerticalAlignment="Center" RenderTransformOrigin="-4.158,-3.058"/>
+        <Label x:Name="WinerName" Content="Label" HorizontalAlignment="Center" Margin="198,106,172,91" VerticalAlignment="Center" RenderTransformOrigin="-4.158,-3.058" FontSize="20"/>
+        <Label Content="Winer is" HorizontalAlignment="Left" Margin="171,70,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.066,0.654" Width="115" FontSize="16" FontWeight="Bold" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
 
     </Grid>
 </Window>

@@ -37,7 +37,7 @@ namespace ChinczykLib
         {
             pawn.Move(dice.Value);
         }
-
+        
         /// <summary>
         /// Metoda zwracająca pionek, który ma zostać przesunięty
         /// </summary>

@@ -85,12 +85,13 @@ namespace ChinczykLib
         public bool  NextRound()
         {
 
-            
+            System.Threading.Thread.Sleep(10);
             //sprawdzenie czy gracz jest odpowiedniego typu
             if (NextPlayer() is ComputerPlayer)
             {
-                ComputerPlayer computerPlayer = (ComputerPlayer)CurrentPlayer;
+                ComputerPlayer computerPlayer = CurrentPlayer as ComputerPlayer;
                 //losowanie liczby
+               
                 dice.Roll();
                 // aktualizacja pola IsActive które przechowuje wrtość odpowiedzialną za to czy pionek może się poruszyć - true , w przeciwnym razie false 
                 UpdatePawnIsActive(computerPlayer);
@@ -99,7 +100,7 @@ namespace ChinczykLib
             }
 
             //jesli następny gracz jest typu ComputerPlayer wywołanie ponownie tej metody dla nastepnego gracza 
-            if (GetNextPlayer is ComputerPlayer && (!IsFinish()))
+            if (GetNextPlayer is ComputerPlayer && (!IsFinish()) && Winer is null)
                 NextRound();
             //sprawdzenie czy gra nie dobiegła konca
             if (IsFinish())
@@ -118,18 +119,18 @@ namespace ChinczykLib
         public bool NextRound(int idPown)
         {
 
-          
 
+            System.Threading.Thread.Sleep(10);
             if (NextPlayer() is HumanPlayer)
             {
 
-                HumanPlayer humanPlayer = (HumanPlayer)CurrentPlayer;
+                HumanPlayer humanPlayer = CurrentPlayer as HumanPlayer ;
                 humanPlayer.MovePawn(humanPlayer.SelectPawn(idPown));
 
             }
 
             //jesli następny gracz jest typu ComputerPlayer wywołanie ponownie  metody NextRound()  dla nastepnego gracza 
-            if (GetNextPlayer is ComputerPlayer && (!IsFinish()))
+            if (GetNextPlayer is ComputerPlayer && (!IsFinish()) && Winer is null)
                 NextRound();
             //sprawdzenie czy gra nie dobiegła konca
             if (IsFinish())

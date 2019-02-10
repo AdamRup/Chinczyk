@@ -11,8 +11,8 @@
             <ImageBrush ImageSource="chiński-mur.jpg"/>
         </Grid.Background>
         <Grid HorizontalAlignment="Left" Height="399" Margin="300,10,0,0" VerticalAlignment="Top" Width="200" Background="#99808080">
-            <CheckBox x:Name="playerOneCheckBox" Content="Gracz 1" HorizontalAlignment="Center" Margin="68,80,65,0" VerticalAlignment="Top" IsChecked="True" Height="16" Width="67"/>
-            <CheckBox x:Name="playerTwoCheckBox" Content="Gracz 2" HorizontalAlignment="Center" Margin="68,102,65,0" VerticalAlignment="Top"  IsChecked="True" Height="16" Width="67"  />
+            <CheckBox x:Name="playerOneCheckBox" Content="Gracz 1" HorizontalAlignment="Center" Margin="68,80,65,0" VerticalAlignment="Top" IsChecked="True" Height="16" Width="67" IsEnabled="False"/>
+            <CheckBox x:Name="playerTwoCheckBox" Content="Gracz 2" HorizontalAlignment="Center" Margin="68,102,65,0" VerticalAlignment="Top"   Height="16" Width="67"  />
             <CheckBox x:Name="playerThreeCheckBox" Content="Gracz 3" HorizontalAlignment="Center" Margin="68,122,65,0" VerticalAlignment="Top" Height="16" Width="67"/>
             <CheckBox x:Name="playerFourCheckBox" Content="Gracz 4" HorizontalAlignment="Center" Margin="68,144,65,0" VerticalAlignment="Top" Height="16" Width="67"/>
             <Button x:Name="startButton" Content="Start" HorizontalAlignment="Center" Margin="59,228,57,0" VerticalAlignment="Top" Width="84" Click="startButton_Click" Height="22"/>
